@@ -7,30 +7,36 @@ jQuery plugin for cloaking email links
 # HTML: Same domain
 
 When the address is on the same domain as the web site:
+
 Eg. the e-mail address is contact@example.com and the web site is www.example.com (or just example.com)
 
 	<span class="e">contact</span>
 
 Result:
+
 	<a href="contact@example.com" class="e-mail">contact@example.com</a>
 
 # HTML: Different domain
 
 When the address is on a different domain:
+
 Eg. the e-mail address is contact@example.com and the web site is www.foobar.com
 
 	<span class="e">contact / example, com </span>
 
 Result:
+
 	<a href="contact@example.com" class="e-mail">contact@example.com</a>
 
 
 # HTML: Custom link text
 
 When the link text should be other that the email address:
+
 	<span class="e" title="Send us an e-mail">contact / example, com </span>
 
 Result:
+
 	<a href="contact@example.com" class="e-mail">Send us an e-mail</a>
 
 
