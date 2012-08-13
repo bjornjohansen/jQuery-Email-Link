@@ -14,7 +14,7 @@ Eg. the e-mail address is contact@example.com and the web site is www.example.co
 
 Result:
 
-	<a href="contact@example.com" class="e-mail">contact@example.com</a>
+	<a href="mailto:contact@example.com" class="e-mail">contact@example.com</a>
 
 # HTML: Different domain
 
@@ -26,18 +26,18 @@ Eg. the e-mail address is contact@example.com and the web site is www.foobar.com
 
 Result:
 
-	<a href="contact@example.com" class="e-mail">contact@example.com</a>
+	<a href="mailto:contact@example.com" class="e-mail">contact@example.com</a>
 
 
 # HTML: Custom link text
 
 When the link text should be other that the email address:
 
-	<span class="e" title="Send us an e-mail">contact / example, com </span>
+	<span class="e" title="Send us an e-mail">contact</span>
 
 Result:
 
-	<a href="contact@example.com" class="e-mail">Send us an e-mail</a>
+	<a href="mailto:contact@example.com" class="e-mail">Send us an e-mail</a>
 
 
 # JS, all cases
