@@ -1,10 +1,10 @@
-## jQuery Email Link
+# jQuery Email Link
 
 jQuery plugin for cloaking email links
 
 ## How to use
 
-# HTML: Same domain
+### HTML: Same domain
 
 When the address is on the same domain as the web site:
 
@@ -16,7 +16,7 @@ Result:
 
 	<a href="mailto:contact@example.com" class="e-mail">contact@example.com</a>
 
-# HTML: Different domain
+### HTML: Different domain
 
 When the address is on a different domain:
 
@@ -29,7 +29,7 @@ Result:
 	<a href="mailto:contact@example.com" class="e-mail">contact@example.com</a>
 
 
-# HTML: Custom link text
+### HTML: Custom link text
 
 When the link text should be other that the email address:
 
@@ -40,7 +40,7 @@ Result:
 	<a href="mailto:contact@example.com" class="e-mail">Send us an e-mail</a>
 
 
-# JS, all cases
+### JS, all cases
 
 In all cases init the JS like this:
 
@@ -50,7 +50,7 @@ In all cases init the JS like this:
 		} );
 	})(jQuery);
 
-# Options
+## Options
 
 Possible options:
 
